@@ -13,15 +13,27 @@ defmodule Pagarmex.Mixfile do
       build_embedded:    Mix.env == :prod,
       start_permanent:   Mix.env == :prod,
       deps:              deps(Mix.env),
+      preferred_cli_env: [
+        vcr:          :test,
+        "vcr.delete": :test,
+        "vcr.check":  :test,
+        "vcr.show":   :test,
+      ],
      ]
   end
 
   def application do
-    [applications: [:logger]]
+    [applications: [:httpoison]]
   end
 
   defp deps(_) do
     [
+      {:httpoison, "~> 0.8.3"},
+      {:poison, "~> 2.1"},
+      {:ex_doc, "~> 0.11.5", only: :dev},
+      {:earmark, "~> 0.2.1", only: :dev},
+      {:exvcr, "~> 0.7.4", only: :test},
+      {:mock, "~> 0.1.3", only: :test},
     ]
   end
 
