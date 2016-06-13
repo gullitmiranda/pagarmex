@@ -1,0 +1,38 @@
+[
+  {
+    "request": {
+      "body": "{}",
+      "headers": {
+        "Content-Type": "application/json",
+        "User-Agent": "Pagarme/1 pagarmex/0.0.1"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.pagar.me/1/balance?api_key=PAGARME_API_KEY"
+    },
+    "response": {
+      "body": "{\"object\":\"balance\",\"available\":{\"amount\":0},\"transferred\":{\"amount\":0},\"waiting_funds\":{\"amount\":0}}",
+      "headers": {
+        "Access-Control-Allow-Credentials": "true",
+        "Access-Control-Allow-Headers": "Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override",
+        "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE",
+        "Access-Control-Allow-Origin": "*",
+        "Charset": "utf-8",
+        "Content-Type": "application/json",
+        "Date": "Mon, 13 Jun 2016 23:56:39 GMT",
+        "Server": "nginx",
+        "X-Powered-By": "Express",
+        "X-RateLimit-Limit": "30",
+        "X-RateLimit-Remaining": "29",
+        "X-RateLimit-Reset": "1465862200",
+        "X-Response-Time": "30ms",
+        "Content-Length": "101",
+        "Connection": "keep-alive",
+        "X-CDN": "Incapsula"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

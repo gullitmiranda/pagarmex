@@ -8,5 +8,5 @@ config :exvcr, [
     # https://regex101.com/r/bQ3pD9/1
     [pattern: "api_key\=.[^&\"]*", placeholder: "api_key=PAGARME_API_KEY"],
   ],
-  response_headers_blacklist: []
+  response_headers_blacklist: ["Set-Cookie", "X-Iinfo"]
 ]
