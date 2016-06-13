@@ -7,7 +7,7 @@ systems({
     // Dependent systems
     depends: [],
     // More images:  http://images.azk.io
-    image: {"docker": "azukiapp/elixir:1.2"},
+    image: {"dockerfile": "./Dockerfile"},
     // Steps to execute before running instances
     provision: [
       "mix do deps.get, compile",
