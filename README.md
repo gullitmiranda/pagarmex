@@ -62,3 +62,8 @@ make test
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin feature/new_feature_name)
 5. Create a new Pull Request
+
+# TODO
+
+- [ ] Adding more docs
+- [ ] Adding more resources

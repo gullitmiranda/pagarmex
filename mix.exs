@@ -30,8 +30,8 @@ defmodule Pagarmex.Mixfile do
     [
       {:httpoison, "~> 0.8.3"},
       {:poison, "~> 2.1"},
-      {:ex_doc, "~> 0.11.5", only: :dev},
-      {:earmark, "~> 0.2.1", only: :dev},
+      {:ex_doc, "~> 0.11.5", only: [:dev, :test]},
+      {:earmark, "~> 0.2.1", only: [:dev, :test]},
       {:exvcr, "~> 0.7.4", only: :test},
       {:mock, "~> 0.1.3", only: :test},
     ]
