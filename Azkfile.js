@@ -20,6 +20,7 @@ systems({
       '/azk/#{manifest.dir}/deps'  : persistent("./deps"),
       '/azk/#{manifest.dir}/_build': persistent("./_build"),
       '/root/.hex'                 : persistent("#{env.HOME}/.hex"),
+      '/root/.hex/hex.config'      : path("#{env.HOME}/.hex/hex.config"),
     },
     envs: {
       // get your PAGARME_API_KEY in https://dashboard.pagar.me/#/myaccount/apikeys

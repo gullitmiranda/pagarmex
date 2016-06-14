@@ -15,7 +15,7 @@ If [available in Hex](https://hex.pm/packages/pagarmex), the package can be inst
 
 ```ex
 def deps do
-  [{:pagarmex, "~> 0.0.1"}]
+  [{:pagarmex, "~> 0.1.0"}]
 end
 ```
 
