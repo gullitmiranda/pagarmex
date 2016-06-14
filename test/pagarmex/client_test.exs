@@ -1,5 +1,5 @@
 defmodule Pagarmex.ClientTest do
-  use ExUnit.Case
+  use ExUnit.Case, async: false
   use ExVCR.Mock, adapter: ExVCR.Adapter.Hackney
 
   setup_all do

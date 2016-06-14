@@ -1,5 +1,5 @@
 defmodule Pagarmex.CardTest do
-  use ExUnit.Case
+  use ExUnit.Case, async: false
   use ExVCR.Mock, adapter: ExVCR.Adapter.Hackney
 
   alias Pagarmex.{
