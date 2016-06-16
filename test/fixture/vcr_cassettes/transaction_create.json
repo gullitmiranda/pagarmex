@@ -4,15 +4,15 @@
       "body": "{\"card_id\":\"card_cipeps3ia00jnbd6ddnr6qis7\",\"amount\":123400}",
       "headers": {
         "Content-Type": "application/json",
-        "User-Agent": "Pagarme/1 pagarmex/0.0.1"
+        "User-Agent": "Pagarme/1 pagarmex/0.1.1"
       },
       "method": "post",
       "options": [],
       "request_body": "",
-      "url": "https://api.pagar.me/1/transactions?api_key=PAGARME_API_KEY"
+      "url": "https://api.pagar.me/1/transactions"
     },
     "response": {
-      "body": "{\"object\":\"transaction\",\"status\":\"paid\",\"refuse_reason\":null,\"status_reason\":\"acquirer\",\"acquirer_response_code\":\"00\",\"acquirer_name\":\"pagarme\",\"authorization_code\":\"318437\",\"soft_descriptor\":null,\"tid\":517388,\"nsu\":517388,\"date_created\":\"2016-06-14T01:12:13.788Z\",\"date_updated\":\"2016-06-14T01:12:14.065Z\",\"amount\":123400,\"authorized_amount\":123400,\"paid_amount\":123400,\"refunded_amount\":0,\"installments\":1,\"id\":517388,\"cost\":50,\"card_holder_name\":\"MasterCard - Chase Manhattan Bank USA, USA\",\"card_last_digits\":\"3734\",\"card_first_digits\":\"532355\",\"card_brand\":\"mastercard\",\"postback_url\":null,\"payment_method\":\"credit_card\",\"capture_method\":\"ecommerce\",\"antifraud_score\":null,\"boleto_url\":null,\"boleto_barcode\":null,\"boleto_expiration_date\":null,\"referer\":\"api_key\",\"ip\":\"0.0.0.0\",\"subscription_id\":null,\"phone\":null,\"address\":null,\"customer\":null,\"card\":{\"object\":\"card\",\"id\":\"card_cipeps3ia00jnbd6ddnr6qis7\",\"date_created\":\"2016-06-14T00:32:19.907Z\",\"date_updated\":\"2016-06-14T00:32:20.111Z\",\"brand\":\"mastercard\",\"holder_name\":\"MasterCard - Chase Manhattan Bank USA, USA\",\"first_digits\":\"532355\",\"last_digits\":\"3734\",\"country\":\"PT\",\"fingerprint\":\"e1Ci4Dn5uhSN\",\"valid\":true,\"expiration_date\":\"0218\"},\"metadata\":{},\"antifraud_metadata\":{}}",
+      "body": "{\"object\":\"transaction\",\"status\":\"paid\",\"refuse_reason\":null,\"status_reason\":\"acquirer\",\"acquirer_response_code\":\"00\",\"acquirer_name\":\"pagarme\",\"authorization_code\":\"894787\",\"soft_descriptor\":null,\"tid\":520793,\"nsu\":520793,\"date_created\":\"2016-06-16T15:33:09.086Z\",\"date_updated\":\"2016-06-16T15:33:09.386Z\",\"amount\":123400,\"authorized_amount\":123400,\"paid_amount\":123400,\"refunded_amount\":0,\"installments\":1,\"id\":520793,\"cost\":50,\"card_holder_name\":\"MasterCard - Chase Manhattan Bank USA, USA\",\"card_last_digits\":\"3734\",\"card_first_digits\":\"532355\",\"card_brand\":\"mastercard\",\"postback_url\":null,\"payment_method\":\"credit_card\",\"capture_method\":\"ecommerce\",\"antifraud_score\":null,\"boleto_url\":null,\"boleto_barcode\":null,\"boleto_expiration_date\":null,\"referer\":\"api_key\",\"ip\":\"0.0.0.0\",\"subscription_id\":null,\"phone\":null,\"address\":null,\"customer\":null,\"card\":{\"object\":\"card\",\"id\":\"card_cipeps3ia00jnbd6ddnr6qis7\",\"date_created\":\"2016-06-14T00:32:19.907Z\",\"date_updated\":\"2016-06-14T00:32:20.111Z\",\"brand\":\"mastercard\",\"holder_name\":\"MasterCard - Chase Manhattan Bank USA, USA\",\"first_digits\":\"532355\",\"last_digits\":\"3734\",\"country\":\"PT\",\"fingerprint\":\"e1Ci4Dn5uhSN\",\"valid\":true,\"expiration_date\":\"0218\"},\"metadata\":{},\"antifraud_metadata\":{}}",
       "headers": {
         "Access-Control-Allow-Credentials": "true",
         "Access-Control-Allow-Headers": "Content-Type, Authorization, X-Requested-With, X-HTTP-Method-Override",
@@ -20,12 +20,12 @@
         "Access-Control-Allow-Origin": "*",
         "Charset": "utf-8",
         "Content-Type": "application/json",
-        "Date": "Tue, 14 Jun 2016 01:12:14 GMT",
-        "ETag": "\"-1870949616\"",
+        "Date": "Thu, 16 Jun 2016 15:33:09 GMT",
+        "ETag": "\"-2106744272\"",
         "Server": "nginx",
         "X-Powered-By": "Express",
-        "X-Response-Time": "333ms",
-        "Content-Length": "1249",
+        "X-Response-Time": "355ms",
+        "Content-Length": "1248",
         "Connection": "keep-alive",
         "X-CDN": "Incapsula"
       },

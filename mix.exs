@@ -1,12 +1,10 @@
 defmodule Pagarmex.Mixfile do
   use Mix.Project
 
-  def version, do: "0.1.0"
-
   def project do
     [
       app:               :pagarmex,
-      version:           version,
+      version:           "0.1.1",
       description:       description,
       package:           package,
       elixir:            "~> 1.2",

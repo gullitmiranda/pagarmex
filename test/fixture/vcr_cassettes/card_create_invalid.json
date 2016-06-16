@@ -4,12 +4,12 @@
       "body": "{\"holder_name\":\"no name\",\"expiration_date\":\"0000\",\"card_number\":\"0000000000000000\"}",
       "headers": {
         "Content-Type": "application/json",
-        "User-Agent": "Pagarme/1 pagarmex/0.0.1"
+        "User-Agent": "Pagarme/1 pagarmex/0.1.1"
       },
       "method": "post",
       "options": [],
       "request_body": "",
-      "url": "https://api.pagar.me/1/cards?api_key=PAGARME_API_KEY"
+      "url": "https://api.pagar.me/1/cards"
     },
     "response": {
       "body": "{\"errors\":[{\"parameter_name\":\"card_expiration_date\",\"type\":\"invalid_parameter\",\"message\":\"Data de expiração inválida\"}],\"url\":\"/cards?api_key=PAGARME_API_KEY\",\"method\":\"post\"}",
@@ -20,7 +20,7 @@
         "Access-Control-Allow-Origin": "*",
         "Charset": "utf-8",
         "Content-Type": "application/json",
-        "Date": "Tue, 14 Jun 2016 01:06:12 GMT",
+        "Date": "Thu, 16 Jun 2016 15:33:11 GMT",
         "Server": "nginx",
         "X-Powered-By": "Express",
         "X-Response-Time": "34ms",

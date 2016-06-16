@@ -11,7 +11,8 @@ defmodule Pagarmex do
   """
 
   def version do
-    Pagarmex.Mixfile.version
+    Mix.Project.config
+    |> Dict.get(:version)
   end
 
   def api_key do
