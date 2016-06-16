@@ -32,7 +32,7 @@ end
 ```ex
 use Mix.Config
 
-config :pagamex, api_key: System.get_env("PAGARME_API_KEY")
+config :pagarmex, api_key: System.get_env("PAGARME_API_KEY")
                 # optional
                 # endpoint: 'https://api.pagar.me/1'
 ```
